@@ -12,21 +12,21 @@ public class Main {
         java.util.ArrayList<String> futureMonths =
                 new java.util.ArrayList<String>();
 
-        int month = 0;
+//        int month = ;
 
-        switch (month) {
-            case 1:  futureMonths.add("January");
-            case 2:  futureMonths.add("February");
-            case 3:  futureMonths.add("March");
-            case 4:  futureMonths.add("April");
-            case 5:  futureMonths.add("May");
-            case 6:  futureMonths.add("June");
-            case 7:  futureMonths.add("July");
-            case 8:  futureMonths.add("August");
-            case 9:  futureMonths.add("September");
-            case 10: futureMonths.add("October");
-            case 11: futureMonths.add("November");
-            case 12: futureMonths.add("December");
+        switch (input) {
+            case "Jan":  futureMonths.add("January");
+            case "Feb":  futureMonths.add("February");
+            case "Mar":  futureMonths.add("March");
+            case "Apr":  futureMonths.add("April");
+            case "May":  futureMonths.add("May");
+            case "Jun":  futureMonths.add("June");
+            case "Jul":  futureMonths.add("July");
+            case "Aug":  futureMonths.add("August");
+            case "Sep":  futureMonths.add("September");
+            case "Oct": futureMonths.add("October");
+            case "Nov": futureMonths.add("November");
+            case "Dec": futureMonths.add("December");
                 break;
             default: break;
         }
