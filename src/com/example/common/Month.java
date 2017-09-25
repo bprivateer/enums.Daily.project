@@ -1,19 +1,28 @@
 package com.example.common;
 
 public enum Month {
-    JANURARY(1),
-    FEBURARY(2),
-    MARCH(3),
-    APRIL(4),
-    MAY(5),
-    JUNE(6),
-    JULY(7),
-    AUGUST(8),
-    SEPTEMBER(9),
-    OCTOBER(10),
-    NOVEMBER(11),
-    DECEMBER(12),
+    JANURARY("Jan", 1),
+    FEBURARY("feb", 2),
+    MARCH("march", 3),
+    APRIL("april", 4),
+    MAY("may", 5),
+    JUNE("june",6),
+    JULY("July",7),
+    AUGUST("Aug",8),
+    SEPTEMBER("Sep",9),
+    OCTOBER("Oct",10),
+    NOVEMBER("Nov", 11),
+    DECEMBER("December", 12),;
 
+    private String englishName;
+    private int numMonth;
 
+    Month(String englishName, int numMonth) {
+        this.numMonth = numMonth;
+        this.englishName = englishName;
+    }
 
+    public String getEnglishName() {
+        return englishName;
+    }
 }
