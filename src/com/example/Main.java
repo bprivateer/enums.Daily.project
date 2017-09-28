@@ -32,7 +32,7 @@ public class Main {
         }
 
         if (futureMonths.isEmpty()) {
-            System.out.println("Invalid month number");
+            System.out.println("Invalid month spelling, must be exact with three letters and capitalization");
         } else {
             for (String monthName : futureMonths) {
                 System.out.println(monthName);
